@@ -12,5 +12,5 @@ messageDB = {
 }
 
 const randNumb = Math.floor(Math.random() * Object.keys(messageDB).length);
-console.log(Object.keys(messageDB)[randNumb]);
+// console.log(Object.keys(messageDB)[randNumb]);
 console.log(messageDB[Object.keys(messageDB)[randNumb]]);
